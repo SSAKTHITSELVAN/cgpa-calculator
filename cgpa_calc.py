@@ -8,7 +8,7 @@ import google.generativeai as genai
 
 # Configure the Generative AI model
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
-model = genai.GenerativeModel("gemini-1.5-flash-002")
+model = genai.GenerativeModel("gemini-3-flash-preview")
 
 # Function to send query to Gemini model
 def get_cgpa_response(image_data):
